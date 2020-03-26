@@ -1,0 +1,51 @@
+import time
+import colorama
+from colorama import Fore
+from termcolor import colored as color
+
+print(color("""
+                How to use?!
+            {Coded by avinoire}
+        {Dead_Lucifer\'s materials}""","red"))
+time.sleep(0.5)
+while True:
+	time.sleep(0.1)
+	print(color(f"""
+{Fore.CYAN}[1] How to use?
+{Fore.CYAN}[2] Authors
+[3] Exit ""","red"))
+	anv = input("$ ","red")
+	if anv == "2":
+		time.sleep(0.7)
+		print(color("""
+			                           {-AUTHORS-}""","red"))
+		print(color("""This programm was written by AviNoire. Material provided by Dead_Lucifer.
+                         Check Telegramm by tags:
+                         [Avinoire] - @avinoire
+                         [Lucifer] - @Dead_Lucifer_666 ""","cyan"))
+		time.sleep(1)
+	elif anv == "1":
+		time.sleep(0.7)
+		print(color("""
+                                   Inscruction step by step.
+
+1) start VPN
+
+2) trigger bigbomb.py (python bigbomb.py)
+
+3) write your\'s bot token ( my should create it in @BotFather on Telegram ) and your Telegram id
+
+4) go to your bot into Telegram and push Start
+
+) You will Menu on russian language
+
+6) push \'Бомбер\'
+
+7) Enter phone number
+
+8) Relax""","cyan"))
+		time.sleep(1)
+	elif anv == "3":
+		break
+	else:
+		print(color("{---Unknown Command---}","red"))
